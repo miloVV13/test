@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="root">
+<form method="post" action="/" class="forms">
+    <label>
+        <br />
+        <input placeholder="ФИО" required/>
+    </label><br />
+    <label>
+        <input type="tel" placeholder="Телефон" required/>
+    </label><br />
+    <label>
+        <input type="email" placeholder="Email" required/>
+    </label><br />
+    <label>
+        Дата рождения <br/>
+        <input type="date" required/>
+    </label><br />
+    <label>
+    <input type="radio" value="male" required/>
+    мужской</label>
+    <label>
+    <input type="radio" value="female" required/>
+    женский</label> <br />
+    <label>
+        <br />
+        <select required>
+            <option disabled>Любимый язык программирования</option>
+            <option value="Pascal">Pascal</option>
+            <option value="C" >C</option>
+            <option value="C++" >C++</option>
+            <option value="JavaScript" >JavaScript</option>
+            <option value="PHP" >PHP</option>
+            <option value="Python" >Python</option>
+            <option value="Java" >Java</option>
+            <option value="Haskel" >Haskel</option>
+            <option value="Clojure" >Clojure</option>
+            <option value="Prolog" >Prolog</option>
+            <option value="Scala" >Scala</option>
+        </select>
+    </label><br />
+    <label>
+        <textarea placeholder="Bio" required></textarea>
+    </label><br />
+    <label>
+        С контрактом ознокомился
+        <input type="checkbox" required>
+    </label><br />
+    <input type="submit" value="Отправить" />
+</form>
+</body>
+</html>

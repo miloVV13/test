@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Павлов Вячеслав 28/2</title>
+</head>
+<body>
+<ol>
+    <li><a href="http://kubsu.ru/">Абсолютная ссылка КубГу</a></li>
+    <li><a href="https://kubsu.ru/">Абсолютная ссылка КубГу в протаколе https</a></li>
+    <li><a href="https://youtu.be/A-BaM9OMsVg?si=_MskNYs1DyC41dOi"><img src="images/meow.jpg" alt="Кот" style="width: 350px; height: 200px"></a></li>
+    <li><a href="/page2.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+    <li><a href="./index.html">Ссылка на главную</a></li>
+    <li><a href="#bottom">Нижняя часть страницы (Фрагмент текущей)</a></li>
+    <li><a href="http://kubsu.ru/?product=socks&color=black&size=m">Ссылка с тремя параметрами кубгу</a></li>
+    <li> <a href="https://www.kubsu.ru/index.php/?id=section-content">Ссылка с параметром id</a></li>
+    <li><a href="./page2.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+    <li><a href="./about.html">Относительная ссылка на about в каталоге about</a></li>
+    <li><a href="./level1/level2/page3.html">Ссылка на два каталога ниже (Выше на 2 будет на странице под этой ссылке)</a></li>
+    <li> <p>Мы учимся в <a id="aInText" href="https://kubsu.ru/">КубГу</a></p></li>
+    <li> <a href="https://www.kubsu.ru/index.php/#section-content">Ссылка на секцию в стороннем сайте</a></li>
+    <li><p>Map</p>
+    <map name="img" style="margin: 30px">
+        <area href="https://kubsu.ru/" shape="rect" coords="0, 0, 100, 100" alt="ссылка на квадратном объекте">
+        <area href="https://kubsu.ru/" shape="circle" coords="200, 200, 50" alt="ссылка на круглом объекте">
+    </map></li>
+    <img src="images/ejik.png" alt="picture" usemap="#img" style="width: 200px; height: 200px">
+    <li> <a href="">Ссылка с пустым href</a></li>
+    <li><a> Ссылка без href</a></li>
+    <li> <a href="https://kubsu.ru/" rel="nofollow">Ссылка по которой нельзя следовать яндексу</a></li>
+    <li><!--noindex--><a href="https://kubsu.ru/">Ссылка по которой нельзя индексировать яндексу</a><!--/noindex--></li>
+    <li><ol>
+        <li title="первый"><a href="page2.html">Ссылка в списке 1</a></li>
+        <li title="второй"><a href="./level1/level2/page3.html">Ссылка в списке 2</a></li>
+        <li title="третий"><a href="./about.html">Ссылка в списке 3</a></li>
+    </ol></li>
+    <li><a href="ftp://demo:demo@http://demo.wftpserver.com/main.html/download/Summer.jpg">Файл ftp</a></li>
+    <li><a href="./form.html">Форма</a></li>
+</ol>
+<a id="bottom"></a>
+</body>
+</html>
